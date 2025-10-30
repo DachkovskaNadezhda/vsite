@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Подключаем шрифты -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Авторизация</title>
+        <link rel="stylesheet" href="/auth/auth-form.css">
+    </head>
+    <body>
+        <div class="auth">
+            <h2 class="auth__title">Личный кабинет</h2>
+            <p class="auth__subtitle">Войти через соцсети</p>
+            <section class="auth__socials">
+                <a class="auth__social-link" href="#" aria-label="ВКонтакте">
+                    <img class="auth__social-icon" src="./images/icon1.svg" alt="ВКонтакте">
+                </a>
+                <a class="auth__social-link" href="#" aria-label="Одноклассники">
+                    <img class="auth__social-icon" src="./images/icon2.svg" alt="Одноклассники">
+                </a>
+                <a class="auth__social-link" href="#" aria-label="Google">
+                    <img class="auth__social-icon" src="./images/icon3.svg" alt="Google">
+                </a>
+            </section>
+            <p class="auth__subtitle">Через аккаунт VSela</p>
+            <div class="auth__tabs">
+                <div class="auth__tab active" data-tab="login">Вход</div>
+                <div class="auth__tab" data-tab="register">Регистрация</div>
+            </div>
+
+            <form class="auth__form active" id="login-form">
+                <div class="auth__input-group">
+                    <input class="auth__input" type="tel" placeholder="Номер телефона" required>
+                    <input class="auth__input" type="password" placeholder="Пароль" required>
+                </div>
+
+                <a class="auth__forgot-password" href="#">Забыли пароль?</a>
+                <button class="auth__button" type="submit">Войти</button>
+                <p class="auth__agreement">
+                    Нажимая на кнопку "Войти",<br>Вы соглашаетесь на обработку <a class="auth__agreement-link" href="">персональных данных</a>
+                </p> 
+            </form>
+
+            <form class="auth__form" id="register-form">
+                <div class="auth__input-group">
+                    <input class="auth__input" type="text" placeholder="Имя" required>
+                    <input class="auth__input" type="tel" placeholder="Номер телефона" required>
+                    <input class="auth__input" type="email" placeholder="E-mail" required>
+                    <input class="auth__input" type="password" placeholder="Пароль" required>
+                    <input class="auth__input" type="password" placeholder="Повторите пароль" required>
+                </div>
+                <button class="auth__button" type="submit">Зарегистрироваться</button>
+                <p class="auth__agreement">
+                    Нажимая на кнопку "Зарегистрироваться",<br>Вы соглашаетесь на обработку <a class="auth__agreement-link" href="">персональных данных</a>
+                </p>
+            </form>
+        </div>
+        <script src="./auth.js"></script>
+    </body>
+</html>

@@ -7,166 +7,86 @@
         <!-- Подключаем шрифты -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Megrim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Магазин Одежды</title>
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
-        <div class="container">
-            <header class="header">
-                <div class="navbar-container" id="navbar-container"></div>
-                <div class="hero__image header-section">
-                    <img class="hero__img" src="./images/hero-img.png" alt="Главное фото магазина одежды VSite">
-                </div>
-                <h1 class="hero__title header-section">
-                    VSite
-                </h1>
-                <h2 class="hero__subtitle header-section">
-                    DENIM
-                </h2>
-                <div class="location header-section">
-                    <a class="location__city-link" href="#">
-                        Липецк
-                    </a><br>
-                    <a class="location__store-link" href="#">
-                        Адреса магазинов
-                    </a>
-                </div>
-                <div class="carousel header-section">
-                    <button class="carousel__btn carousel__btn--prev" aria-label="Предыдущий слайд"></button>
-                    <button class="carousel__dot" aria-label="Слайд 1"></button>
-                    <button class="carousel__dot" aria-label="Слайд 2"></button>
-                    <button class="carousel__dot" aria-label="Слайд 3"></button>
-                    <button class="carousel__dot" aria-label="Слайд 4"></button>
-                    <button class="carousel__dot" aria-label="Слайд 5"></button>
-                    <button class="carousel__btn carousel__btn--next" aria-label="Следующий слайд"></button>
-                </div>   
-            </header>
-            <main class="main">
-                <section class="gallery">
-                    <img class="gallery__photo" src="./images/img-man.png" alt="Мужская одежда от VSite">
-                    <img class="gallery__photo" src="./images/img-women.png" alt="Женская одежда от VSite">
-                </section>
-                <section class="about-store">
-                    <h3 class="about-store__title">VSite — российский лайфстайл бренд одежды для молодых людей</h3>
-                    <p class="about-store__desc">
-                        Бренд VSite создан студентами энтузиастами.
-                        Мы стремимся удовлетворить все потребности в гардеробе
-                        — от верхней одежды до белья и аксессуаров. Для создания
-                        коллекций выбираем натуральные ткани и предлагаем
-                        актуальные вещи по доступным ценам.
-                    </p>
-                    <p class="about-store__desc">
-                        Также мы создаем одежду для маленьких (2-6 лет) и больших (7-12 лет) детей.
-                        Это практичная верхняя одежда для прогулок, а также комфортные вещи для
-                        садика и похода на кружки, основу которых составляют футболки, худи и
-                        свитшоты, джоггеры и леггинсы, трикотажные платья и многое другое.
-                    </p>
-                    <p class="about-store__desc">
-                        Чтобы быть в курсе всех новостей и акций, рекомендуем подписаться на
-                        наши рассылки и телеграм.
-                    </p>
-                    <p class="about-store__desc">
-                        Желаем приятных покупок! Ваш VSite
-                    </p>
-                </section>
-                <section class="subscription">
-                    <p class="subscription__title">Подписывайся на наши обновления</p>
-                    <p class="subscription__desc">Узнай первым о старте скидок и специальных предложений!</p>
-                    <input class="subscription__email" type="email" placeholder="Введите e-mail" required>
-                    <button class="subscription__submit" type="submit">Подписаться</button>
-                    <p class="subscription__privacy">
-                        Подписываясь рассылку, вы соглашаетесь с <a class="subscription__privacy-link" href="#">Политикой конфиденциальности.</a>
-                    </p>
-                </section>
-            </main>
-            <footer class="footer">
-                <section class="footer__section">
-                    <h4 class="footer__title">Покупателям</h4>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link">Доставка</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Отследить заказ</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Оплата</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Возврат и обмен</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Акции и конкурсы</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Таблицы размеров</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Правила продажи</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Оформление заказа</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Уход за товаром</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Политика конфиденциальности</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Программа лояльности</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="footer__section">
-                    <h4 class="footer__title">О компании</h4>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link">О нас</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Вакансии</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link">Контакты</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="footer__section">
-                    <div class="footer__socials">
-                        <a class="footer__social-link" href="#" aria-label="Telegram">
-                            <img class="footer__social-icon" src="./images/tg-icon.svg" alt="Telegram">
+        <div class="main-page">
+            <div class="navbar-container" id="navbar-container"></div>
+            <div class="main-page__container">       
+                <header class="main-page__header">
+                    <div class="hero__image header-section">
+                        <img class="hero__img" src="./images/hero-img.png" alt="Главное фото магазина одежды VSite">
+                    </div>
+                    <h1 class="hero__title header-section">
+                        VSite
+                    </h1>
+                    <h2 class="hero__subtitle header-section">
+                        DENIM
+                    </h2>
+                    <div class="location header-section">
+                        <a class="location__link location__city-link" href="#">
+                            Липецк
                         </a>
-                        <a class="footer__social-link" href="#" aria-label="ВКонтакте">
-                            <img class="footer__social-icon" src="./images/vk-icon.svg" alt="ВКонтакте">
-                        </a>
-                        <a class="footer__social-link" href="#" aria-label="Instagram">
-                            <img class="footer__social-icon" src="./images/inst-icon.svg" alt="Instagram">
+                        <a class="location__link location__store-link" href="#">
+                            Адреса магазинов
                         </a>
                     </div>
-                    <div class="footer__app">
-                        <a class="footer__app-link" href="#">
-                            <img class="footer__app-icon" src="./images/app-store.svg" alt="Логотип App Store">
-                            Загрузите в <span class="footer__app-name">App Store</span>
-                        </a>                        
+                    <div class="carousel header-section">
+                        <button class="carousel__btn carousel__btn--prev" aria-label="Предыдущий слайд"></button>
+                        <button class="carousel__dot" aria-label="Слайд 1"></button>
+                        <button class="carousel__dot" aria-label="Слайд 2"></button>
+                        <button class="carousel__dot" aria-label="Слайд 3"></button>
+                        <button class="carousel__dot" aria-label="Слайд 4"></button>
+                        <button class="carousel__dot" aria-label="Слайд 5"></button>
+                        <button class="carousel__btn carousel__btn--next" aria-label="Следующий слайд"></button>
+                    </div>   
+                </header>
+                <main class="main-page__main">
+                    <div class="gallery">
+                        <img class="gallery__photo" src="./images/img-man.png" alt="Мужская одежда от VSite">
+                        <img class="gallery__photo" src="./images/img-women.png" alt="Женская одежда от VSite">
                     </div>
-                    <div class="footer__app">
-                        <a class="footer__app-link" href="#">
-                            <img class="footer__app-icon" src="./images/google-play.svg" alt="Логотип Google Play">
-                            Доступно в <span class="footer__app-name">Google Play</span>
-                        </a>
-                    </div>
-                </section>    
-            </footer>
+                    <section class="about-store">
+                        <h3 class="about-store__title">VSite — российский лайфстайл бренд одежды для молодых людей</h3>
+                        <p class="about-store__desc about-store__desc--first">
+                            Бренд VSite создан студентами энтузиастами.
+                            Мы стремимся удовлетворить все потребности в гардеробе
+                            — от верхней одежды до белья и аксессуаров. Для создания
+                            коллекций выбираем натуральные ткани и предлагаем
+                            актуальные вещи по доступным ценам.
+                        </p>
+                        <p class="about-store__desc about-store__desc--second">
+                            Также мы создаем одежду для маленьких (2-6 лет) и больших (7-12 лет) детей.
+                            Это практичная верхняя одежда для прогулок, а также комфортные вещи для
+                            садика и похода на кружки, основу&nbsp;которых составляют футболки, худи и
+                            свитшоты, джоггеры и леггинсы, трикотажные платья и многое другое.
+                        </p>
+                        <p class="about-store__desc about-store__desc--third">
+                            Чтобы быть в курсе всех новостей и акций, рекомендуем подписаться на
+                            наши рассылки и телеграм.
+                        </p>
+                        <p class="about-store__desc about-store__desc--fourth">
+                            Желаем&nbsp;приятных&nbsp;покупок!<br>Ваш&nbsp;VSite
+                        </p>
+                    </section>
+                    <section class="subscription">
+                        <h3 class="subscription__title">Подписывайся<br>на наши обновления</h3>
+                        <p class="subscription__desc">Узнай первым о старте<br>скидок и специальных предложений!</p>
+                        <input class="subscription__email" type="email" placeholder="Введите e-mail" required>
+                        <button class="subscription__submit" type="submit">Подписаться</button>
+                        <p class="subscription__privacy">
+                            Подписываясь рассылку,<br>вы соглашаетесь с <a class="subscription__privacy-link" href="#">Политикой конфиденциальности.</a>
+                        </p>
+                    </section>
+                </main>
+                <footer class="footer-container" id="footer-container"></footer>
+            </div>
         </div>
-        <script>
-            fetch('navbar.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navbar-container').innerHTML = data;
-                })
-                .catch(error => console.error('Error loading navbar:', error));
-        </script>
+        <script src="index.js"></script>
     </body>
 </html>
