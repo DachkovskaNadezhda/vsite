@@ -9,16 +9,18 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Megrim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Магазин Одежды</title>
-        <link rel="stylesheet" href="./styles/style.css">
-        <link rel="stylesheet" href="./styles/index.css">
-        <link rel="stylesheet" href="./styles/navbar.css">
-        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./navbar/navbar.css">
+        <link rel="stylesheet" href="./menu/menu.css">
+        <link rel="stylesheet" href="./footer/footer.css">
     </head>
     <body>
-        <div class="main-page">
+        <div class="index-page">
             <div class="navbar-container" id="navbar-container"></div>
-            <div class="main-page__container">       
-                <header class="main-page__header">
+            <div class="menu-container" id="menu-container"></div>
+            <div class="index-page__container">       
+                <header class="index-page__header">
                     <div class="hero__image header-section">
                         <img class="hero__img" src="./images/hero-img.png" alt="Главное фото магазина одежды VSite">
                     </div>
@@ -39,14 +41,14 @@
                     <div class="carousel header-section">
                         <button class="carousel__btn carousel__btn--prev" aria-label="Предыдущий слайд"></button>
                         <button class="carousel__dot" aria-label="Слайд 1"></button>
-                        <button class="carousel__dot" aria-label="Слайд 2"></button>
+                        <button class="carousel__dot" aria-label="Слайд 2" active></button>
                         <button class="carousel__dot" aria-label="Слайд 3"></button>
                         <button class="carousel__dot" aria-label="Слайд 4"></button>
                         <button class="carousel__dot" aria-label="Слайд 5"></button>
                         <button class="carousel__btn carousel__btn--next" aria-label="Следующий слайд"></button>
                     </div>   
                 </header>
-                <main class="main-page__main">
+                <main class="index-page__main">
                     <div class="gallery">
                         <img class="gallery__photo" src="./images/img-man.png" alt="Мужская одежда от VSite">
                         <img class="gallery__photo" src="./images/img-women.png" alt="Женская одежда от VSite">

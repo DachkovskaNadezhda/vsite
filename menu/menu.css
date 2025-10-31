@@ -1,0 +1,40 @@
+.menu-container {
+    display: block;
+    height: max-content;
+    padding: 38px 0 27px 0;
+    width: 65.69%;
+    background-color: #f2f2f2;
+}
+
+.menu__section {
+    display: flex;
+    padding: 0 8.556% 0 8.556%;
+    justify-content: space-between;
+}
+
+.menu__gallery {
+    padding: 11px 8.556% 11px 8.556%;
+    align-items: center;
+    background-color: #002654;
+}
+
+.menu__gallery-item {
+    display: flex;
+    width: 23.61%;
+    align-items: center;
+}
+
+.menu__gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu__item {
+    width: 26.81%;
+    text-align: center;
+}
+
+.menu__img {
+    width: 100%;
+}
