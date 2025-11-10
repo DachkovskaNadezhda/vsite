@@ -1,0 +1,99 @@
+.auth {
+    margin: 0 auto;
+    margin-top: 1em;
+    max-width: 600px;
+    max-height: 820;
+
+    text-align: center;
+
+    font-family: "Megrim", sans-serif; ;
+    font-size: 20px;
+
+    border: thin solid rgba(0, 0, 0, 0.2);
+}
+
+.auth__title {
+    margin: 30px 0 22px 0;
+
+    font-size: 2em;
+}
+
+.auth__socials {
+    margin: 41px 160px 41px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth__social-link {
+    text-decoration: none;
+}
+
+.auth__social-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.auth__tabs {
+    margin: 31px 158px 12px 169px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.auth__tab{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.auth__tab.active{
+    color: rgb(0, 0, 0);
+}
+
+
+.auth__form {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.auth__form.active {
+    display: block;
+}
+
+.auth__input {
+    margin: 18px 126px 23px 125px;
+    width: 349px;
+    height: 45px;
+    padding-left: 0.7em;
+    font-size: 1em;
+}
+
+.auth__forgot-password {
+    margin: 0 0 42px 125px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #000;
+}
+
+.auth__button {
+    min-width: 220px;
+    height: 50px;
+    padding: 0 1em 0 1em;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.auth__agreement {
+    margin: 11px auto 115px auto;
+    width: 271px;
+    height: 34px;
+    font-size: 0.5em;
+}
+
+.auth__agreement-link {
+    color: #000;
+    text-decoration:none;
+    border-bottom: 0.2px solid #000;
+}

@@ -6,6 +6,7 @@ html {
 
 .index-page {
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1;
     grid-template-rows: 1;
     max-width: 1440px;
@@ -151,8 +152,12 @@ html {
 
 .gallery__photo {
     height: 100%;
-    width: auto;
+    width: 49.32%;
     object-fit: fill;
+}
+
+.gallery__photo--second {
+    width: 48.11%;
 }
 
 .about-store {

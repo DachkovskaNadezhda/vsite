@@ -1,9 +1,14 @@
 .menu-container {
     display: block;
+    visibility: hidden;
     height: max-content;
     padding: 38px 0 27px 0;
     width: 65.69%;
     background-color: #f2f2f2;
+}
+
+.menu-container--visible {
+    visibility: visible;
 }
 
 .menu__section {
@@ -35,6 +40,11 @@
     text-align: center;
 }
 
+.menu__item:hover {
+    cursor: grab;
+}
+
 .menu__img {
     width: 100%;
 }
+
