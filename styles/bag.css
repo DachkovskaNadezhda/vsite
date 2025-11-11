@@ -1,5 +1,5 @@
 html {
-    font-family: "Khula", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -22,7 +22,7 @@ html {
 
 .navbar-container {
     height: 235px;
-    margin: 22px 20px 0 70px;
+    margin: 48px 45px 0 45px;
 }
 
 .menu-container {
@@ -30,26 +30,33 @@ html {
 }
 
 .bag-page__container {
+    display: grid;
     width: 100%;
     z-index: 1;
 }
 
-.bag-page__header-title {
-    margin-top: 200px;
-    margin-left: 105px;
-   transform: rotate(-90deg);
-    transform-origin: left bottom;
-    width: 289px;
-    height: 91px;
+.bag-page__main {
+  text-align: center;
+}
+
+.bag-page__title {
+    display: flex;
+    margin-top: 114px;
+    margin-left: 14.5px;
+    width: 91px;
+    height: 289px;
+    font-size: 65px;
+    font-weight: 200;
+
+    writing-mode: sideways-lr; 
+}
+
+.bag-page__title h1{
+    padding: 0;
     font-size: 65px;
     font-weight: 200;
 }
 
-
-
-.bag-page__main {
-  text-align: center;
-}
 
 .footer-container {
     margin-top: 126px;
