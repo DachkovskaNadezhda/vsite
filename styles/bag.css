@@ -1,6 +1,6 @@
 html {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -26,38 +26,74 @@ html {
 }
 
 .menu-container {
-    margin: 62px 0 0 70px;
+    margin: 45px 0 0 80px;
 }
 
 .bag-page__container {
     display: grid;
+    grid-template-columns: 105.5px auto 105.5px;
+    grid-template-rows: 1;
     width: 100%;
     z-index: 1;
 }
 
-.bag-page__main {
-  text-align: center;
+.brand-name {
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    margin: -55px 10px 0 10px; 
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: clamp(300px, 43vw, 608px);
+    font-family: "Megrim", system-ui;
+    font-weight: 500;
+    font-style: normal;
+
+    color: rgba(109, 109, 109, 0.05);
 }
 
-.bag-page__title {
+
+.bag-page__title-wrapper {
     display: flex;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     margin-top: 114px;
     margin-left: 14.5px;
     width: 91px;
     height: 289px;
-    font-size: 65px;
-    font-weight: 200;
-
     writing-mode: sideways-lr; 
 }
 
-.bag-page__title h1{
+.bag-page__title-text {
     padding: 0;
     font-size: 65px;
     font-weight: 200;
 }
 
+.bag-empty {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: clamp(100px, 13.06vw, 188px) 100px 0 100px;
+    text-align: center;
+}
+
+.bag-empty__title {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.bag-empty__text {
+    margin: 17px 0 19px 0;
+}
+
+.bag-empty__link {
+    font-size: 1.25em;
+    text-decoration-thickness: 1px;
+    color: rgba(0, 0, 0, 0.6);
+}
 
 .footer-container {
-    margin-top: 126px;
+    margin-top: 175px;
 }

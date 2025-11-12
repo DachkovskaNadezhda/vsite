@@ -4,10 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Подключаем шрифты -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Корзина</title>
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/bag.css">
@@ -20,14 +19,16 @@
             <div class="navbar-container" id="navbar-container"></div>
             <div class="menu-container" id="menu-container"></div>
             <div class="bag-page__container">
-                <div class="bag-page__title">
-                    <h1>Корзина</h1>
-                </div>  
-                <main class="bag-page__main">        
-                    <h2>Корзина пуста</h2>
-                    <p>Для совершения заказа добавьте понравивишиеся товары в корзину через каталог</p>
-                    <a href="">Перейти к покупкам</a>
-                </main>
+                <div class="brand-name">Vsite</div>
+                <section class="bag-page__title-wrapper">
+                    <h1 class="bag-page__title-text">Корзина</h1>
+                </section>  
+                
+                <section class="bag-empty" id="bag-empty">        
+                    <h2 class="bag-empty__title">Корзина пуста</h2>
+                    <p class="bag-empty__text">Для совершения заказа добавьте понравивишиеся товары в корзину через каталог</p>
+                    <a class="bag-empty__link" href="">Перейти к покупкам</a>
+                </section>
             </div>
             <footer class="footer-container" id="footer-container"></footer>
         </div>
