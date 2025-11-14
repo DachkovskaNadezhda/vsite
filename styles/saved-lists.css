@@ -1,0 +1,50 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.saved-lists-page {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    max-width: 1440px;
+    width: 100vw;
+
+}
+
+.navbar-container, .menu-container, .brand-name, .saved-lists-page__container{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 3;   
+}
+
+.navbar-container {
+    height: 235px;
+    margin: 38px 45px 0 45px;
+}
+
+.menu-container {
+    margin: 38px 0 0 80px;
+}
+
+.brand-name {
+    z-index: 2;
+    margin: 27px 0 0 103px;
+    font-family: "Megrim", system-ui;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: medium;
+}
+
+.saved-lists-page__container {
+    z-index: 1;
+    padding-top: 27px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+

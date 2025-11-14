@@ -2,8 +2,6 @@
     display: flex;
     justify-content: flex-start;
     gap: 91px;
-    margin-left: 18.75%;
-    margin-right: 18.06%;
     color: #000;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -15,7 +13,7 @@
     line-height: 234%;
 }
 
-.footer__section--socials {
+.footer__section_socials {
     align-items: center;
     justify-content: space-between;
     margin-top: 147px;

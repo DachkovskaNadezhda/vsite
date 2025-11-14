@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <title>Корзина</title>
+        <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Избранное</title>
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/saved-lists.css">
         <link rel="stylesheet" href="./styles/navbar.css">
@@ -15,21 +15,20 @@
         <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
-        <div class="navbar-container" id="navbar-container"></div>
         <div class="saved-lists-page">
             <div class="navbar-container" id="navbar-container"></div>
             <div class="menu-container" id="menu-container"></div>
+            <div class="brand-name">Vsite</div>
             <main class="saved-lists-page__container">
-                <div class="brand-name">Vsite</div>
                 <h1 class="saved-lists__title">Избранное</h1>
-                <section class="saved-lists-empty"> 
+                <div class="saved-lists-empty">                   
                     <p class="saved-lists-empty__text">Сейчас у вас ничего нет в избранном</p>
                     <p class="saved-lists-empty__text">Чтобы добавить понравившийся товар в «Избранное», отметьте его «сердцем»!
                         <br>Это можно сделать как со страницы товара, так и из общего каталога.</p>
-                    <a class="saved-lists-empty__link"href="">Перейти к покупкам</a>
-                </section>
+                    <a class="saved-lists-empty__link" href="">Перейти к покупкам</a>
+                    </div>
 
-                <section class="popular-products">
+                <div class="popular-products">
                     <a class="product">
                         <img class="product__img" src="" alt="Рубашка из смесового льна">
                         <p class="product__name">Рубашка из смесового льна</p>
@@ -45,7 +44,7 @@
                         <p class="product__name">Рубашка из смесового льна</p>
                         <p class="product__price">5.999 R</p>
                     </a>
-                </section>
+                </div>
             </main>
             <footer class="footer-container" id="footer-container"></footer>
         </div>
