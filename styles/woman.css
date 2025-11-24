@@ -1,0 +1,67 @@
+html {
+    font-family: "Khula", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.woman-page {
+    display: grid;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1440px;
+    grid-template-columns: 244px minmax(0, 1fr);
+    grid-template-rows: max-content max-content 1fr;
+}
+
+.navbar-wrapper, .menu-wrapper, .woman-page__hero, .woman-page__aside, .woman-page__main, .footer {
+    grid-column: 1 / 3;
+    z-index: 1;
+    width: 100%   
+}
+
+.navbar-wrapper, .menu-wrapper {
+    grid-row: 1 / 4;
+    z-index: 2;
+    margin: 22px 20px 0 100px;  
+}
+
+.navbar-wrapper {
+    height: 235px;
+    margin: 22px 20px 0 70px;  
+}
+
+.woman-page__hero {
+    grid-row: 1 / 2;
+    height: 145px;
+    text-align: center; 
+}
+
+.woman-page__aside {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    background-color: green;
+}
+
+.woman-page__main {
+   grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+    width: 100%;
+}
+
+.product-cards-container {
+    margin-right: 167px;
+    display: flex;
+    gap: 69px 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+
+.footer {
+    grid-row: 3 / 4; 
+    margin: 126px 18.75% 0 18.06%;
+}

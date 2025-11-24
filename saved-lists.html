@@ -10,14 +10,14 @@
         <title>Избранное</title>
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/saved-lists.css">
-        <link rel="stylesheet" href="./styles/navbar.css">
-        <link rel="stylesheet" href="./styles/menu.css">
-        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./navbar/navbar.css">
+        <link rel="stylesheet" href="./menu/menu.css">
+        <link rel="stylesheet" href="./footer/footer.css">
     </head>
     <body>
         <div class="saved-lists-page">
-            <div class="navbar-container" id="navbar-container"></div>
-            <div class="menu-container" id="menu-container"></div>
+            <div class="navbar" id="navbar"></div>
+            <div class="menu" id="menu"></div>
             <div class="brand-name">Vsite</div>
             <main class="saved-lists-page__container">
                 <h1 class="saved-lists__title">Избранное</h1>
@@ -46,9 +46,9 @@
                     </a>
                 </div>
             </main>
-            <footer class="footer-container" id="footer-container"></footer>
+            <footer class="footer" id="footer"></footer>
         </div>
-        <script src="navbar.js"></script>
-        <script src="footer.js"></script>
+        <script src="./navbar/navbar.js"></script>
+        <script src="./footer/footer.js"></script>
     </body>
 </html>

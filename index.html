@@ -10,16 +10,17 @@
         <title>Магазин Одежды</title>
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/index.css">
-        <link rel="stylesheet" href="./styles/navbar.css">
-        <link rel="stylesheet" href="./styles/menu.css">
-        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./navbar/navbar.css">
+        <link rel="stylesheet" href="./menu/menu.css">
+        <link rel="stylesheet" href="./footer/footer.css">
     </head>
     <body>
         <div class="index-page">
-            <div class="navbar" id="navbar"></div>         
+            <div class="navbar-wrapper" id="navbar-wrapper"></div>
+            <div class="menu-wrapper" id="menu-wrapper"></div>         
             <header class="index-page__hero">
                 <div class="index-page__hero-img-wrapper">
-                    <img class="index-page__hero-img" src="./images/hero-img.png" alt="Главное фото магазина одежды VSite">
+                    <img class="index-page__hero-img" src="./index-page/__hero-img/hero-img.png" alt="Главное фото магазина одежды VSite">
                 </div>
                 <h1 class="index-page__hero-title">
                     VSite
@@ -47,8 +48,8 @@
             </header>      
             <main class="index-page__main">
                 <div class="gallery">
-                    <img class="gallery__photo gallery__photo_first" src="./images/img-man.png" alt="Мужская одежда от VSite">
-                    <img class="gallery__photo gallery__photo_second" src="./images/img-women.png" alt="Женская одежда от VSite">
+                    <img class="gallery__photo gallery__photo_first"  src="./gallery/__photo/img-man.png" alt="Мужская одежда от VSite">
+                    <img class="gallery__photo gallery__photo_second" src="./gallery/__photo/img-women.png" alt="Женская одежда от VSite">
                 </div>
                 <section class="about-store">
                     <h3 class="about-store__title">VSite — российский лайфстайл бренд одежды для молодых людей</h3>
@@ -83,9 +84,11 @@
                     </p>
                 </section>
             </main>
-            <footer id="footer"></footer>
+            <footer class="footer" id="footer"></footer>
         </div>
-        <script src="navbar.js"></script>
-        <script src="footer.js"></script>
+        <script src="./navbar/navbar.js"></script>
+        <script src="./menu/menu.js"></script>
+        <script src="./footer/footer.js"></script>
+        <script src="./product/product.js"></script>
     </body>
 </html>

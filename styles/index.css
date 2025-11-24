@@ -8,25 +8,30 @@ html {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1;
-    grid-template-rows: 1;
+    grid-template-rows: 3;
     max-width: 1440px;
     width: 100vw;
 }
 
-.navbar, .index-page__hero, .index-page__main, .footer {
+.navbar-wrapper, .menu-wrapper, .index-page__hero, .index-page__main, .footer {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
     z-index: 1;
-    width: 100%;   
+    width: 100%   
 }
 
-.navbar {
-    z-index: 2; 
+.navbar-wrapper, .menu-wrapper {
+    grid-row: 1 / 4;
+    z-index: 2;
+    padding: 22px 20px 0 100px;  
+}
+
+.navbar-wrapper {
     height: 235px;
-    margin: 22px 20px 0 70px;  
+    padding: 22px 20px 0 70px;  
 }
 
 .index-page__hero {
+    grid-row: 1 / 2;
     margin-right: 70px;
     display: grid;
     grid-template-columns: 250px 220px auto;
@@ -103,11 +108,11 @@ html {
 }
 
 .carousel__btn_prev {
-    background-image: url('../images/btn_prev.png');
+    background-image: url('../carousel/__btn/btn_prev.png');
 }
 
 .carousel__btn_next {
-    background-image: url('../images/btn_next.png');
+    background-image: url('../carousel/__btn/btn_next.png');
 }
 
 .carousel__dot {
@@ -121,6 +126,10 @@ html {
 
 .carousel__dot[active] {
     background-color: #fff;
+}
+
+.index-page__main {
+    grid-row: 2 / 3; 
 }
 
 .gallery {
@@ -220,5 +229,6 @@ html {
 }
 
 .footer {
+    grid-row: 3 / 4; 
     margin: 126px 18.75% 0 18.06%;
 }

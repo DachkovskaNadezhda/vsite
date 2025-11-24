@@ -1,4 +1,4 @@
-.menu-container {
+.menu {
     display: block;
     visibility: hidden;
     height: 0;
@@ -7,7 +7,7 @@
     background-color: #f2f2f2;
 }
 
-.menu-container--visible {
+.menu--visible {
     visibility: visible;
     height: max-content;
 }
