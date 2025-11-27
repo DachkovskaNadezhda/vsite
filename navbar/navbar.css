@@ -1,8 +1,3 @@
-.navbar * {
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
     display: flex;
     width: 100%;
@@ -10,12 +5,28 @@
 }
 
 .navbar__show-menu-btn {
-    margin-right: 100px;
     width: 30px;
     height: 30px;
+    margin-right: 100px;
     background-color: rgba(255, 255, 255, 0);
     background-image: url('./__pull-out-menu-btn/icon.png');
     border: none;
+}
+
+.navbar__search-input {
+    width: 100%;
+    height: 1.875em;
+    visibility: hidden;
+    margin-right: 100px;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    border: thin solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-size: 32px;
+}
+
+.navbar__search-input--visible {
+    visibility: visible;
 }
 
 .navbar__controls {
@@ -34,40 +45,25 @@
 }
 
 .navbar__basket-link {
-    height: 30px;
     width: 30px;
+    height: 30px;
 }
 
 .navbar__profile-link {
-    height: 20px;
     width: 20px;
+    height: 20px;
 }
 
 .navbar__saved-lists-link {
-    height: 22px;
     width: 22px;
+    height: 22px;
 }
 
 .navbar__search-btn {
-    height: 25px;
     width: 25px;
+    height: 25px;
     background-color: rgba(255, 255, 255, 0);
     background-image: url('./__search-btn/search-icon.png');
     border: none;
 }
  
-.navbar__search-input {
-    visibility: hidden;
-    margin-right: 100px;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    width: 100%;
-    height: 1.875em;
-    border: thin solid rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    font-size: 32px;
-}
-
-.navbar__search-input--visible {
-    visibility: visible;
-}

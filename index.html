@@ -17,34 +17,33 @@
     <body>
         <div class="index-page">
             <div class="navbar-wrapper" id="navbar-wrapper"></div>
-            <div class="menu-wrapper" id="menu-wrapper"></div>         
+            <div class="menu-wrapper" id="menu-wrapper"></div>      
             <header class="index-page__hero">
-                <div class="index-page__hero-img-wrapper">
-                    <img class="index-page__hero-img" src="./index-page/__hero-img/hero-img.png" alt="Главное фото магазина одежды VSite">
-                </div>
-                <h1 class="index-page__hero-title">
-                    VSite
-                </h1>
-                <h2 class="index-page__hero-subtitle" id="DENIM">
-                    DENIM
-                </h2>
-                <div class="index-page__location">
-                    <a class="index-page__location-link" href="#">
-                        Липецк
-                    </a>
-                    <a class="index-page__location-link" href="#">
-                        Адреса магазинов
-                    </a>
-                </div>
-                <div class="carousel">
-                    <button class="carousel__btn carousel__btn_prev" aria-label="Предыдущий слайд"></button>
-                    <button class="carousel__dot" aria-label="Слайд 1"></button>
-                    <button class="carousel__dot" aria-label="Слайд 2" active></button>
-                    <button class="carousel__dot" aria-label="Слайд 3"></button>
-                    <button class="carousel__dot" aria-label="Слайд 4"></button>
-                    <button class="carousel__dot" aria-label="Слайд 5"></button>
-                    <button class="carousel__btn carousel__btn_next" aria-label="Следующий слайд"></button>
-                </div>   
+                <div class="index-page__hero-items-wrapper">
+                    <h1 class="index-page__hero-title">
+                        VSite
+                    </h1>
+                    <h2 class="index-page__hero-subtitle" id="DENIM">
+                        DENIM
+                    </h2>
+                    <div class="index-page__location">
+                        <a class="index-page__location-link" href="#">
+                            Липецк
+                        </a>
+                        <a class="index-page__location-link" href="#">
+                            Адреса магазинов
+                        </a>
+                    </div>
+                    <div class="carousel">
+                        <button class="carousel__btn carousel__btn_prev" aria-label="Предыдущий слайд"></button>
+                        <button class="carousel__dot" aria-label="Слайд 1"></button>
+                        <button class="carousel__dot" aria-label="Слайд 2" active></button>
+                        <button class="carousel__dot" aria-label="Слайд 3"></button>
+                        <button class="carousel__dot" aria-label="Слайд 4"></button>
+                        <button class="carousel__dot" aria-label="Слайд 5"></button>
+                        <button class="carousel__btn carousel__btn_next" aria-label="Следующий слайд"></button>
+                    </div>   
+                </div> 
             </header>      
             <main class="index-page__main">
                 <div class="gallery">
@@ -71,18 +70,22 @@
                         наши рассылки и телеграм.
                     </p>
                     <p class="about-store__desc about-store__desc_fourth">
-                        Желаем&nbsp;приятных&nbsp;покупок!<br>Ваш&nbsp;VSite
+                        Желаем&nbsp;приятных&nbsp;покупок! Ваш&nbsp;VSite
                     </p>
                 </section>
-                <section class="subscription">
-                    <h3 class="subscription__title">Подписывайся<br>на наши обновления</h3>
-                    <p class="subscription__desc">Узнай первым о старте<br>скидок и специальных предложений!</p>
-                    <input class="subscription__email" type="email" placeholder="Введите e-mail" required>
-                    <button class="subscription__submit" type="submit">Подписаться</button>
-                    <p class="subscription__privacy">
-                        Подписываясь рассылку,<br>вы соглашаетесь с <a class="subscription__privacy-link" href="#">Политикой конфиденциальности.</a>
-                    </p>
-                </section>
+                <div class="subscription-wrapper">       
+                    <section class="subscription">
+                        <h3 class="subscription__title">Подписывайся на&nbsp;наши&nbsp;обновления</h3>
+                        <p class="subscription__desc">Узнай&nbsp;первым&nbsp;о&nbsp;старте скидок&nbsp;и&nbsp;специальных&nbsp;предложений!</p>
+                        <div class="subscription__input">
+                            <input class="subscription__email" type="email" name="email" placeholder="Введите e-mail" required>
+                            <button class="subscription__submit" type="submit">Подписаться</button> 
+                        </div>
+                        <p class="subscription__privacy">
+                            Подписываясь рассылку,&nbsp;вы&nbsp;соглашаетесь с&nbsp;<a class="subscription__privacy-link" href="#">Политикой&nbsp;конфиденциальности.</a>
+                        </p>
+                    </section>
+                </div>
             </main>
             <footer class="footer" id="footer"></footer>
         </div>
