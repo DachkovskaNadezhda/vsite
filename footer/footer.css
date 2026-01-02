@@ -1,7 +1,9 @@
 .footer__section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 91px;
+    column-gap: 91px;
+    row-gap: 30px;
     color: #000;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -9,15 +11,15 @@
     line-height: 100%;    
 }
 
-.footer__column {
+.footer .footer__section:first-child {
     line-height: 234%;
+    margin-bottom: 147px;
 }
 
 .footer__section_socials {
     align-items: center;
+    column-gap: 60px;
     justify-content: space-between;
-    margin-top: 147px;
-
 }
 
 .footer__list {

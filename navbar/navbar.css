@@ -7,7 +7,7 @@
 .navbar__show-menu-btn {
     width: 30px;
     height: 30px;
-    margin-right: 100px;
+    margin-right: 50px;
     background-color: rgba(255, 255, 255, 0);
     background-image: url('./__pull-out-menu-btn/icon.png');
     border: none;
@@ -17,7 +17,7 @@
     width: 100%;
     height: 1.875em;
     visibility: hidden;
-    margin-right: 100px;
+    margin-right: 80px;
     padding-left: 0.7em;
     padding-right: 0.7em;
     border: thin solid rgba(0, 0, 0, 0.2);
@@ -67,3 +67,26 @@
     border: none;
 }
  
+@media (max-width: 625px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .navbar__show-menu-btn {
+        order: 1;
+    }
+    .navbar__search-input {
+        order: 3;
+        margin: 0 auto;
+        font-size: 1.125rem;
+    }
+    .navbar__controls {
+        order: 2;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .navbar__controls a {
+        margin-bottom: 0;
+    }
+}
