@@ -13,7 +13,7 @@
 
 .footer .footer__section:first-child {
     line-height: 234%;
-    margin-bottom: 147px;
+    margin-bottom: clamp(30px, 10.21vw, 147px);
 }
 
 .footer__section_socials {
