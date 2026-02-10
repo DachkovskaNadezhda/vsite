@@ -10,7 +10,7 @@ fetch('./menu/menu.html')
     .then(data => {
         document.getElementById('menu-wrapper').innerHTML = data;
     })
-    .catch(error => console.error('Error loading navbar:', error));
+    .catch(error => console.error('Error loading menu:', error));
 
 
 

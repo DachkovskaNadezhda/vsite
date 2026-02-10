@@ -3,7 +3,9 @@
     visibility: hidden;
     height: 0;
     padding: 38px 0 27px 0;
-    width: 65.69%;
+    /* width: 65.69%; */
+    width: 80%;
+    max-width: 900px;
     background-color: #f2f2f2;
 }
 
