@@ -147,7 +147,7 @@ product = {
 
   price: 7999,
   itemPurchased: 5, 
-  neWCollection: true,
+  neWCollection: false,
   sale: false
 };
 
@@ -237,21 +237,21 @@ product = {
   selectedSize: 38,
 
   stock: {
-    "#FFE4B5": {
+    "#252026": {
       36: 5,
       38: 3,
       40: 0,
       42: 7,
       44: 2
     },
-    "#252525": {
+    "#7D9478": {
       36: 0,
       38: 8,
       40: 4,
       42: 1,
       44: 0
     },
-    "#572F6F": {
+    "#E1D9CC": {
       36: 0,
       38: 8,
       40: 4,
@@ -275,7 +275,7 @@ product = {
 
   price: 9999,
   itemPurchased: 5, 
-  neWCollection: true,
+  neWCollection: false,
   sale: false
 };
 
@@ -284,62 +284,50 @@ product = {
   article: "05",
   productCategory: "woman",
   productSubCategory: "Одежда",
-  productName: "ВЯЗАНАЯ ЮБКА В РУБЧИК",
+  productName: "Классические брюки",
   colors: [
     {
-      hex: "#FFE4B5",
-      name: "Персиковый",
-      image: "./product/__img/product02_peach.png"
-    },
-    {
-      hex: "#252525", 
-      name: "Тёмно-серый",
-      image: "./product/__img/product02_darkgray.png"
-    },
-    {
-      hex: "#572F6F", 
-      name: "Сливовый",
-      image: "./product/__img/product02_plum.png"
+      hex: "#130E14",
+      name: "Темно-фиолетовый",
+      image: "./product/__img/product05_darkpurple.png"
     },
     {
       hex: "#FFFFF1", 
       name: "Слоновая кость",
-      image: "./product/__img/product02_ivory.png"
+      image: "./product/__img/product05_ivory.png"
+    },
+    {
+      hex: "#397153", 
+      name: "Амазонка",
+      image: "./product/__img/product05_amazon.png"
     }
   ],
   sizes: [36, 38, 40, 42, 44],
-  selectedColor: "#252525",
+  selectedColor: "#130E14",
   selectedSize: 38,
 
   stock: {
-    "#FFE4B5": {
+    "#130E14": {
       36: 5,
       38: 3,
       40: 0,
       42: 7,
       44: 2
     },
-    "#252525": {
-      36: 0,
-      38: 8,
-      40: 4,
-      42: 1,
-      44: 0
-    },
-    "#572F6F": {
-      36: 0,
-      38: 8,
-      40: 4,
-      42: 1,
-      44: 0
-    }  ,  
     "#FFFFF1": {
       36: 0,
       38: 8,
       40: 4,
       42: 1,
       44: 0
-    }    
+    },
+    "#397153": {
+      36: 0,
+      38: 8,
+      40: 4,
+      42: 1,
+      44: 0
+    }   
   },
 
   get productImg() {
@@ -355,46 +343,42 @@ product = {
      return this.colors.map(color => color.hex);
   },
 
-  price: 7999,
-  itemPurchased: 5, 
+  price: 15999,
+  itemPurchased: 4, 
   neWCollection: true,
   sale: false
 };
 
 productList.push(product);
+
 product = {
   article: "06",
   productCategory: "woman",
   productSubCategory: "Одежда",
-  productName: "ВЯЗАНАЯ ЮБКА В РУБЧИК",
+  productName: "Базовые трикотажные",
   colors: [
     {
-      hex: "#FFE4B5",
-      name: "Персиковый",
-      image: "./product/__img/product02_peach.png"
+      hex: "#73BDE4",
+      name: "Небесно-голубой",
+      image: "./product/__img/product06_skyblue.png"
     },
     {
       hex: "#252525", 
       name: "Тёмно-серый",
-      image: "./product/__img/product02_darkgray.png"
+      image: "./product/__img/product06_darkgray.png"
     },
     {
-      hex: "#572F6F", 
-      name: "Сливовый",
-      image: "./product/__img/product02_plum.png"
-    },
-    {
-      hex: "#FFFFF1", 
-      name: "Слоновая кость",
-      image: "./product/__img/product02_ivory.png"
+      hex: "#397153", 
+      name: "Амазонка",
+      image: "./product/__img/product06_amazon.png"
     }
   ],
   sizes: [36, 38, 40, 42, 44],
-  selectedColor: "#252525",
+  selectedColor: "#73BDE4",
   selectedSize: 38,
 
   stock: {
-    "#FFE4B5": {
+    "#73BDE4": {
       36: 5,
       38: 3,
       40: 0,
@@ -408,14 +392,7 @@ product = {
       42: 1,
       44: 0
     },
-    "#572F6F": {
-      36: 0,
-      38: 8,
-      40: 4,
-      42: 1,
-      44: 0
-    }  ,  
-    "#FFFFF1": {
+    "#397153": {
       36: 0,
       38: 8,
       40: 4,
